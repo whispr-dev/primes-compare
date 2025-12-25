@@ -1,6 +1,29 @@
+[README.md]
+
+# Primes-Compare
+
+<p align="center">
+  <a href="https://github.com/whisprer/primes-compare/releases"> 
+    <img src="https://img.shields.io/github/v/release/whisprer/primes-compare?color=4CAF50&label=release" alt="Release Version"> 
+  </a>
+  <a href="https://github.com/whisprer/primes-compare/actions"> 
+    <img src="https://img.shields.io/github/actions/workflow/status/whisprer/primes-compare/lint-and-plot.yml?label=build" alt="Build Status"> 
+  </a>
+</p>
+
+![Commits](https://img.shields.io/github/commit-activity/m/whisprer/primes-compare?label=commits) 
+![Last Commit](https://img.shields.io/github/last-commit/whisprer/primes-compare) 
+![Issues](https://img.shields.io/github/issues/whisprer/primes-compare) 
+[![Version](https://img.shields.io/badge/version-3.1.1-blue.svg)](https://github.com/whisprer/primes-compare) 
+[![Platform](https://img.shields.io/badge/platform-Windows%2010%2F11-lightgrey.svg)](https://www.microsoft.com/windows)
+[![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+
+<p align="center">
+  <img src="primes-compare-banner.png" width="850" alt="Primes-Compare Banner">
+
 # primes_compare
  comparing numbercrunching in c++; py; rust
-
 
 Prime Number Generators Benchmark
 This project compares the performance of prime number generators implemented in Python, C++, and Rust. It includes various optimization strategies and a comprehensive benchmarking system.
@@ -32,8 +55,6 @@ Smart (p-primes-smart.py): Adaptive implementation that chooses:
 Basic sieve for n < 1,000
 NumPy for 1,000 ≤ n < 100,000
 Numba for n ≥ 100,000
-
-
 
 C++ Versions
 
@@ -94,8 +115,6 @@ Python implementations show higher overhead but better scaling with the smart ve
 500 numbers: ~0.14ms (algorithm only)
 50k numbers: ~0.37ms (algorithm only)
 500k numbers: ~840ms (algorithm only)
-
-
 
 Under system load, Rust shows excellent consistency with the lowest standard deviation.
 Contributing
